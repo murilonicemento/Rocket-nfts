@@ -2,7 +2,7 @@
 Projeto criado através da plataforma Rocketseat - Trilha Discover
 
 ## Deploy da aplicação
-
+https://rocket-nfts-beta.vercel.app/
 
 ## Tecnologias utilizadas
 + HTML5

@@ -1,0 +1,225 @@
+/* GOOGLE FONTS FONT-FAMILY: MONTSERRAT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--body-background);
+    background-image: url(/assets/img/background.png);
+    background-repeat: no-repeat;
+    font-family: Montserrat, sans-serif;
+    color: var(--text-color);
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 57px;
+    margin-bottom: 90px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+}
+
+header nav ul li {
+    transition: .4s;
+}
+
+nav ul li:hover {
+    color: var(--color-logo);
+}
+
+header button {
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: var(--text-color);
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+header button:hover {
+    background-color: gainsboro;
+}
+
+/* SECTION PRESENTATION */
+#presentation {
+    margin-bottom: 113px;
+    margin-left: 30px;
+}
+
+#presentation div>p {
+    width: 401px;
+    height: 88px;
+    font-size: 18px;
+}
+
+#presentation div img {
+    margin-top: 55px;
+}
+
+#presentation div span p {
+    margin-left: 180px;
+    font-size: 18px;
+}
+
+#presentation div span p:first-child {
+    margin-top: -50px;
+    font-weight: 700;
+}
+
+#presentation h1 {
+    width: 596px;
+    height: 246px;
+    float: left;
+    margin-right: 40px;
+    margin-left: 441px;
+    margin-top: -238px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#presentation h1 span {
+    color: var(--color-logo);
+}
+
+#presentation img:last-child {
+    float: right;
+    margin-top: -231px;
+    margin-right: 30px;
+}
+
+/* SECTION GALLERY */
+#gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#gallery div {
+    display: flex;
+    gap: 16px;
+}
+
+#gallery div:first-child {
+    margin-bottom: 60px;
+}
+
+#gallery div img {
+    border: 1px solid var(--text-color);
+}
+
+/* SECTION INFORMATION */
+#statistics {
+    float: left;
+    width: 281px;
+    height: 604px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    border-right: 1px solid var(--subtitle-color);
+    border-bottom: 1px solid var(--subtitle-color);
+    transition: .4s;
+}
+
+#statistics p:nth-child(2),
+#statistics p:nth-child(4),
+#statistics p:nth-child(6) {
+    margin-bottom: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--subtitle-color);
+}
+
+#statistics p:nth-child(1),
+#statistics p:nth-child(3),
+#statistics p:nth-child(5) {
+    transition: .4s;
+}
+
+#statistics p:nth-child(1):hover,
+#statistics p:nth-child(3):hover,
+#statistics p:nth-child(5):hover {
+    color: var(--color-logo);
+}
+
+#information div {
+    width: 435px;
+    height: fit-content;
+    margin-top: 79px;
+}
+
+#information div:nth-child(2) {
+    float: left;
+    margin-left: 50px;
+}
+
+#information div span {
+    text-decoration: underline;
+    color: var(--color-logo);
+    cursor: pointer;
+}
+
+#information div:nth-child(2) p:last-child {
+    margin-top: 63px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#information div:nth-child(3) {
+    float: right;
+    margin-right: 50px;
+}
+
+#information div:nth-child(3) p:last-child {
+    margin-top: 63px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#information img:last-child {
+    float: right;
+    width: 1068px;
+    margin-top: 71px;
+}
