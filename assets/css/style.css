@@ -199,12 +199,21 @@ header button:hover {
     text-decoration: underline;
     color: var(--color-logo);
     cursor: pointer;
+    transition: .4s;
 }
 
+#information div span:hover {
+    color: gainsboro;
+}
 #information div:nth-child(2) p:last-child {
     margin-top: 63px;
     text-decoration: underline;
     cursor: pointer;
+    transition: .4s;
+}
+
+#information div:nth-child(2) p:last-child:hover {
+    color: var(--color-logo);
 }
 
 #information div:nth-child(3) {
@@ -216,8 +225,12 @@ header button:hover {
     margin-top: 63px;
     text-decoration: underline;
     cursor: pointer;
+    transition: .4s;
 }
 
+#information div:nth-child(3) p:last-child:hover {
+    color: var(--color-logo);
+}
 #information img:last-child {
     float: right;
     width: 1068px;
