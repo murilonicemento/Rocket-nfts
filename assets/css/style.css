@@ -49,11 +49,13 @@ header nav ul {
     font-size: 18px;
 }
 
-header nav ul li {
+header nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
     transition: .4s;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
     color: var(--color-logo);
 }
 
@@ -326,4 +328,169 @@ header button:hover {
 .artists-card p:last-child {
     margin-top: 10px;
     color: var(--color-logo);
+}
+
+#see-more {
+    width: 260px;
+    margin: auto;
+    margin-bottom: 146px;
+    font-size: 20px;
+    background: url(/assets/img/arrow-orange.svg) no-repeat right;
+    cursor: pointer;
+}
+
+#see-more:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    padding-top: 82px;
+    background-color: var(--card-color);
+}
+
+footer div:first-child {
+    width: 1268px;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer div:first-child a {
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-logo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#registration {
+    width: 547px;
+    height: 320px;
+    border: 1px solid var(--subtitle-color);
+}
+
+#registration h3 {
+    width: 350px;
+    height: 80px;
+    margin-top: 67px;
+    margin-left: 80px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#registration h3 span {
+    color: var(--color-logo);
+}
+
+#registration input {
+    width: 280px;
+    height: 66px;
+    background-color: var(--black-text);
+    margin-top: 25px;
+    margin-left: 80px;
+    padding-left: 20px;
+    font-family: Montserrat, sans-serif;
+    color: var(--text-color);
+    border: none;
+    outline: 0;
+}
+
+#registration input::placeholder {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: var(--subtitle-color);
+}
+
+#registration button {
+    width: 122px;
+    height: 66px;
+    float: right;
+    background-color: var(--text-color);
+    margin-top: 25px;
+    margin-right: 63.03px;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+#table {
+    width: 800px;
+    height: 320px;
+    float: right;
+    margin-top: -320px;
+    margin-right: 2px;
+    display: flex;
+    align-items: center;
+    gap: 128px;
+    border: 1px solid var(--subtitle-color);
+    border-left: none;
+    border-right: none;
+}
+
+.table-division {
+    width: 98px;
+    height: 193px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.table-division {
+    font-size: 20px;
+    color: var(--subtitle-color);
+}
+.table-division a {
+    text-decoration: none;
+    color: var(--subtitle-color);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.table-division a:hover {
+    color: var(--color-logo);
+}
+.table-division a:first-child {
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+#table div:nth-child(4) {
+    margin-right: 198px;
+}
+
+#social-media {
+    width: 1268px;
+    margin: auto;
+    margin-top: 69px;
+    padding-bottom: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+#social-media a {
+    color: var(--subtitle-color);
+    text-decoration: none;
+    cursor: pointer;
+    transition: .4s;
+}
+#social-media a:hover {
+    color: var(--color-logo);
+}
+#social-media div {
+    display: flex;
+    gap: 50px;
+}
+
+#social-media div img {
+    cursor: pointer;
 }
