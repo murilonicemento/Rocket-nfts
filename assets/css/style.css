@@ -205,6 +205,7 @@ header button:hover {
 #information div span:hover {
     color: gainsboro;
 }
+
 #information div:nth-child(2) p:last-child {
     margin-top: 63px;
     text-decoration: underline;
@@ -231,8 +232,98 @@ header button:hover {
 #information div:nth-child(3) p:last-child:hover {
     color: var(--color-logo);
 }
+
 #information img:last-child {
     float: right;
     width: 1068px;
     margin-top: 71px;
+}
+
+/* SECTION WEEKLY ASTRONAUT*/
+
+#weekly-astronaut h2 {
+    margin: 149px 0 158px 87px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#weekly-astronaut h2 span {
+    color: var(--color-logo);
+}
+
+.astronaut-card {
+    width: 350px;
+    height: 337px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 87px;
+}
+
+.astronaut-card h3 {
+    font-size: 30px;
+    font-weight: 500;
+    background-image: url(/assets/img/arrow-white.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.astronaut-card p {
+    margin-top: 44px;
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--subtitle-color);
+}
+
+.astronaut-card p span {
+    float: right;
+    font-weight: 400;
+    color: var(--color-logo);
+}
+
+#weekly-astronaut div:nth-child(3),
+#weekly-astronaut div:nth-child(6) {
+    margin-left: 470px;
+}
+
+/* SECTION ARTISTS GALLERY */
+#artists-gallery h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 151px;
+    margin-bottom: 120px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#artists-gallery h2 span {
+    margin-left: 15px;
+    color: var(--color-logo);
+}
+
+#cards {
+    width: 1287px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 111px;
+    margin: auto;
+    margin-bottom: 54px;
+}
+
+.artists-card {
+    width: 350px;
+    height: 150px;
+    background-color: var(--card-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.artists-card p:last-child {
+    margin-top: 10px;
+    color: var(--color-logo);
 }
