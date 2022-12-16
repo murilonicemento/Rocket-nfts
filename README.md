@@ -9,7 +9,12 @@ https://rocket-nfts-beta.vercel.app/
 + CSS3
 
 ## Estrutura do site
-
++ Barra de navegação
++ Seção de galerira de fotos de astronautas e artistas
++ Informações sobre a Rocket NFTs
++ Astronautas populares da semana
++ Melhores artistas
++ Rodapé
 
 ## Home 
 
